@@ -19,7 +19,7 @@ void separator()
 
 void clearAll()
 {
-    // system("cls");
+    system("cls");
 }
 
 void init()
@@ -54,7 +54,8 @@ int winPossibilities[8][3] = {
     {1, 4, 7},
     {2, 5, 8},
     {0, 4, 8},
-    {2, 4, 6}};
+    {2, 4, 6}
+};
 
 int aiGetCase()
 {
@@ -107,7 +108,7 @@ int aiGetCase()
         }
 
         //bloquer ligne diagonal
-        
+
 
         /// Case libre
         if (free == 3)
